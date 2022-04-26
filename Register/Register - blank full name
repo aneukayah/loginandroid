@@ -1,0 +1,435 @@
+id: 742uLLsGykqoDXuRd3C6Lw
+projectId: l8C7RGq8r0qtWpMYyiIx3Q
+projectName: loginandroid
+created: 2022-04-26T04:10:06.0426284Z
+protocol: 1
+tests:
+- id: zptWgy1-m0CLlsQM80_syw
+  name: Register - blank full name
+  description: negatif test
+  platform: Android
+  type: Mobile
+  driverType: Appium_Android
+  version: 0.1
+  creationDate: 2022-04-26T02:59:22.0000000
+  modificationDate: 2022-04-26T03:03:05.0000000
+  settings:
+    automationAssistant: true
+    deviceId: emulator-5554
+    appId: x1LWr7Xm2EOb1KwjNcryFQ
+    stepSleepTime: 500
+    stepTimeout: 35000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: x1LWr7Xm2EOb1KwjNcryFQ
+    name: Login
+    platform: Android
+    hash: 4202e4f1bfc54c1c9f6f63a2f2286f7f
+  steps:
+  - id: RcBqCNw4rUacRdBadeS_cA
+    comments: Clear application data and restart (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 1b89acc3-5003-4ae6-a8c1-c1732e09ef45
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Gkw34XM_jkqApg43f4cujQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: r-PsYghwd0qU05JlfF0BDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: vKNj_QnTgECi4bpy6ABMUA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: J--j8Ho9Q0ipBy6P6ollSQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _GUDAxK_KECR119TQWpmrQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: J--j8Ho9Q0ipBy6P6ollSQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ''
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zxTxwZxiD0uvRco8xnGvdg
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: uK6vnKMr4kufUjCnjDjxqQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: dAGtIqOoQ0yOG8EKAlN_Kw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: uK6vnKMr4kufUjCnjDjxqQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: doggdone.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: WCWOuOQgj0uhrTOw2eQgRQ
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: e9ea3d15-4501-488a-a03f-2d876da81f4c
+      source: System
+    parameterMaps:
+    - name: key
+      value: 4
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: I6EsLgI8A0yS6kbVDs0znQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: at3T4Rx590m8vwKt8JVklg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: e052dfb2-7dc6-4f1b-89c9-946c448abd4c
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: t2kyoTu6306JxagOj_09Pw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: at3T4Rx590m8vwKt8JVklg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 12345
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: gza35ctJF0O-Xf-WXIfPbQ
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: e9ea3d15-4501-488a-a03f-2d876da81f4c
+      source: System
+    parameterMaps:
+    - name: key
+      value: 4
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 44-3rDqxl0mRw4vKib7DfA
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: TPFaaJ4FEEiCGmSBpoAPzA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: 12345
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: RU0Q0sIMAEuFTih7xPzYvA
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: Q9nTXruvE02uUclwRcfp9g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: U-JW4NLqUU6wV4iJQYEOVQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: P56iZD3XoUKR3-W20rPlUA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Enter Full Name
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters: []
+auxTests: []
+elements:
+- id: r-PsYghwd0qU05JlfF0BDQ
+  name: No account yet? Create one
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/textViewLinkRegister
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'No account yet? Create one']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.TextView[2]
+    priority: 2
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.TextView[2]
+    priority: 3
+- id: J--j8Ho9Q0ipBy6P6ollSQ
+  name: com.loginmodule.learning:id/textInput...2
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/textInputEditTextName
+    priority: 0
+  - name: XPATH
+    value: //TextInputLayout[1]/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/TextInputLayout[1]/android.widget.EditText[1]
+    priority: 2
+- id: uK6vnKMr4kufUjCnjDjxqQ
+  name: com.loginmodule.learning:id/textInput...3
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/textInputEditTextEmail
+    priority: 0
+  - name: XPATH
+    value: //TextInputLayout[2]/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/TextInputLayout[2]/android.widget.EditText[1]
+    priority: 2
+- id: at3T4Rx590m8vwKt8JVklg
+  name: com.loginmodule.learning:id/textInput...4
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/textInputEditTextPassword
+    priority: 0
+  - name: XPATH
+    value: //TextInputLayout[3]/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/TextInputLayout[3]/android.widget.EditText[1]
+    priority: 2
+- id: TPFaaJ4FEEiCGmSBpoAPzA
+  name: com.loginmodule.learning:id/textInput...5
+  type:
+    id: jUwODgyNjAyNzk2NTk3MTM
+    name: android.widget.EditText
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/textInputEditTextConfirmPassword
+    priority: 0
+  - name: XPATH
+    value: //TextInputLayout[4]/android.widget.EditText
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/TextInputLayout[4]/android.widget.EditText[1]
+    priority: 2
+- id: Q9nTXruvE02uUclwRcfp9g
+  name: REGISTER
+  type:
+    id: jUwODgyNjAyNzk2NTk4NDU
+    name: android.widget.Button
+    source: System
+  locators:
+  - name: ID
+    value: com.loginmodule.learning:id/appCompatButtonRegister
+    priority: 2
+  - name: XPATH
+    value: //android.widget.Button[@text = 'REGISTER']
+    priority: 1
+  - name: XPATH
+    value: //android.widget.Button
+    priority: 0
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.Button[1]
+    priority: 3
+- id: P56iZD3XoUKR3-W20rPlUA
+  name: Enter Full Name
+  type:
+    id: jUwODgyNjAyNzk2NTk3NTE
+    name: android.widget.TextView
+    source: System
+  locators:
+  - name: XPATH
+    value: //android.widget.TextView[@text = 'Enter Full Name']
+    priority: 0
+  - name: XPATH
+    value: //android.widget.TextView
+    priority: 1
+  - name: XPATH
+    value: //android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.support.v7.widget.LinearLayoutCompat[1]/TextInputLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]
+    priority: 2
+projectParameters: []
+addons: []
